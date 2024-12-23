@@ -1,0 +1,39 @@
+.Todo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #6c63ff;
+    color: white;
+    border-radius: 5px;
+  }
+  
+  .Todo p {
+    margin: 0;
+    cursor: pointer;
+  }
+  
+  .completed {
+    text-decoration: line-through;
+    color: #28a745;
+  }
+  
+  .incompleted {
+    color: white;
+  }
+  
+  .edit-icon, .delete-icon, .complete-icon {
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  .complete-icon {
+    color: #ffffff; 
+    transition: color 0.3s;
+  }
+  
+  .complete-icon.completed {
+    color: #28a745; 
+  }
+  
